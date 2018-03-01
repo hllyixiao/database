@@ -9,7 +9,7 @@ CREATE TABLE `user_follower`(
   KEY `userid_index` (`userid`) USING BTREE,
   KEY `followerid_index` (`followerid`) USING BTREE,
   KEY `delete_index` (`delete`) USING BTREE
-)ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='用户关注表';
+)ENGINE=InnoDB AUTO_INCREMENT=10000 DEFAULT CHARSET=utf8 COMMENT='用户关注表';
 
 ----- rollback  ------
 -- DROP TABLE IF EXISTS `user_follower`;
