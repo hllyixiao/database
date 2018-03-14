@@ -11,7 +11,7 @@ CREATE TABLE `user`(
   `sharecoin` int(10) unsigned NOT NULL DEFAULT 0 COMMENT '用户分享币',
   `motto` VARCHAR(300) COMMENT '用户格言',
   `lastloginip` VARCHAR(20)  COMMENT '最后登陆的ip',
-  `avatarurl` VARCHAR(30)  COMMENT '头像图片路径',
+  `avatarurl` VARCHAR(50)  COMMENT '头像图片路径',
   `createtime` TIMESTAMP  NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '用户创建时间',
   `updatetime` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '用户更新时间',
   PRIMARY KEY (`id`),
