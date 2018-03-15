@@ -4,7 +4,7 @@ DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user`(
   `id` int(20) unsigned NOT NULL AUTO_INCREMENT COMMENT '用户id',
   `name` VARCHAR (40)  DEFAULT '' COMMENT '用户名称',
-  `password` VARCHAR(10) NOT NULL  COMMENT '用户密码',
+  `password` VARCHAR(64) NOT NULL  COMMENT '用户密码',
   `phone` VARCHAR(20) NOT NULL UNIQUE COMMENT '用户手机号',
   `email` VARCHAR(30)  COMMENT '用户邮箱',
   `type` tinyint(4) unsigned NOT NULL DEFAULT 1 COMMENT '用户类型：1普通用户、2会员、3管理员、4超级用户',
