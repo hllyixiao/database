@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6d5ba80-2537-4037-aa8e-e3530c130f48" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/comment_picture.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/comment_video.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/likes_article.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/likes_picture.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/likes_video.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/article.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/article.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/comment_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/comment_article.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/modular_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/modular.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/user_follower_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/user_follower.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/user_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/user.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,80 +27,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="comment_article.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/comment_article.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comment_picture.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/comment_picture.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" selection-start-line="2" selection-end-line="15" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comment_video.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/comment_video.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/article.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="likes_article.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/likes_article.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="likes_picture.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/likes_picture.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="likes_video.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/likes_video.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_follower.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/user_follower.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -137,7 +54,6 @@
         <option value="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/user_follower_table.sql" />
         <option value="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/picture_likes.sql" />
         <option value="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/video_likes.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/article.sql" />
         <option value="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/likes_article.sql" />
         <option value="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/likes_picture.sql" />
         <option value="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/likes_video.sql" />
@@ -145,6 +61,7 @@
         <option value="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/comment_article.sql" />
         <option value="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/comment_picture.sql" />
         <option value="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/comment_video.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/article.sql" />
       </list>
     </option>
   </component>
@@ -154,9 +71,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="265" />
-    <option name="width" value="780" />
+    <option name="x" value="457" />
+    <option name="y" value="25" />
+    <option name="width" value="824" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -167,8 +88,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -210,6 +129,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="ddl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="ddl" type="462c0819:PsiDirectoryNode" />
               <item name="sharinglife" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -229,6 +158,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,6 +291,21 @@
       <workItem from="1522031395763" duration="1235000" />
       <workItem from="1522144834645" duration="4784000" />
       <workItem from="1522203816494" duration="12159000" />
+      <workItem from="1522227516686" duration="596000" />
+      <workItem from="1522287406835" duration="597000" />
+      <workItem from="1522325271898" duration="591000" />
+      <workItem from="1522396792786" duration="1259000" />
+      <workItem from="1522458598209" duration="2979000" />
+      <workItem from="1522578338114" duration="597000" />
+      <workItem from="1522630756780" duration="1189000" />
+      <workItem from="1522634020824" duration="614000" />
+      <workItem from="1522672502454" duration="596000" />
+      <workItem from="1522847865864" duration="576000" />
+      <workItem from="1523098629916" duration="588000" />
+      <workItem from="1523190589578" duration="589000" />
+      <workItem from="1523362761243" duration="1360000" />
+      <workItem from="1523454545003" duration="545000" />
+      <workItem from="1523678560358" duration="1149000" />
     </task>
     <task id="LOCAL-00001" summary="添加modular表">
       <created>1519282259228</created>
@@ -407,7 +353,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68408000" />
+    <option name="totallyTimeSpent" value="82233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -420,31 +366,31 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.20661157" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.1979346" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22692889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19969743" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.14751287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.14751287" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,6 +407,27 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加comment表" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/likes_video.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/user_follower.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/article.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/comment_article.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -720,13 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/user.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/modular.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -743,57 +703,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/likes_picture.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="25">
           <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/likes_video.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="25">
           <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/user_follower.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        <state relative-caret-position="150">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/likes_article.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="200">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/comment_picture.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="50">
           <caret line="2" selection-start-line="2" selection-end-line="15" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/comment_video.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="175">
           <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/comment_article.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/user.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="400">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/article.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="130">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mysql/ddl/sharinglife/comment_article.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
