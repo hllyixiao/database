@@ -5,7 +5,7 @@ CREATE TABLE `article`(
   `id` int(20) unsigned NOT NULL AUTO_INCREMENT COMMENT '文章id',
   `userid` int(20) unsigned NOT NULL COMMENT '发表用户id',
   `title` VARCHAR (40)  DEFAULT '' COMMENT '标题',
-  `contenttxt` text  COMMENT '纯文本内容',
+  `displaycontexttxt` VARCHAR (400)   COMMENT '显示的文本内容（截取前400字）',
   `contenthtml` text  COMMENT '内容',
   `categoryid` int(8) unsigned COMMENT '分类id',
   `allowcomments` tinyint(4) unsigned NOT NULL DEFAULT 1 COMMENT '是否允许评论 0:否  1：是',
