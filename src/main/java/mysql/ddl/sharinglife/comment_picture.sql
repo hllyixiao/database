@@ -1,5 +1,5 @@
 
---------- 2018/3/14 创建图片模块评论表  开始----------------
+-- 2018/3/14 创建图片模块评论表  开始----------------
 DROP TABLE IF EXISTS `comment_picture`;
 
 CREATE TABLE `comment_picture` (
@@ -15,7 +15,7 @@ CREATE TABLE `comment_picture` (
   KEY `pictureid_deleted_index` (`pictureid`,`deleted`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
 
------ rollback  ------
+-- rollback  ------
 -- DROP TABLE IF EXISTS `comment_picture`;
 
---------- 2018/3/14 创建图片模块表  结束----------------
+-- 2018/3/14 创建图片模块表  结束----------------

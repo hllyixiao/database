@@ -1,5 +1,5 @@
 
---------- 2018/3/16 创建点赞表  开始----------------
+-- 2018/3/16 创建点赞表  开始----------------
 DROP TABLE IF EXISTS `like`;
 
 CREATE TABLE `like` (
@@ -14,7 +14,7 @@ CREATE TABLE `like` (
   KEY `articleuserid_deleted_index` (`articleuserid`,`deleted`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
 
------ rollback  ------
+-- rollback  ------
 -- DROP TABLE IF EXISTS `like`;
 
---------- 2018/3/16 创建点赞表  结束----------------
+-- 2018/3/16 创建点赞表  结束----------------

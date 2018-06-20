@@ -1,4 +1,4 @@
---------- 2018/2/12 创建用户表  开始----------------
+-- 2018/2/12 创建用户表  开始----------------
 DROP TABLE IF EXISTS `user`;
 
 CREATE TABLE `user`(
@@ -19,7 +19,7 @@ CREATE TABLE `user`(
   KEY `name_index` (`name`) USING BTREE
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='用户表';
 
------ rollback  ------
+-- rollback  ------
 -- DROP TABLE IF EXISTS `user`;
 
---------- 2018/2/12 创建用户表  结束----------------
+-- 2018/2/12 创建用户表  结束----

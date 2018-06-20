@@ -1,4 +1,4 @@
---------- 2018/3/1 创建文章表  开始----------------
+-- 2018/3/1 创建文章表  开始----------------
 DROP TABLE IF EXISTS `article`;
 
 CREATE TABLE `article`(
@@ -21,7 +21,7 @@ CREATE TABLE `article`(
   KEY `status_index` (`status`) USING BTREE
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='文章表';
 
------ rollback  ------
+-- rollback  ------
 -- DROP TABLE IF EXISTS `article`;
 
---------- 2018/3/1 创建文章表  结束----------------
+-- 2018/3/1 创建文章表  结束----------------

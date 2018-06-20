@@ -1,4 +1,4 @@
---------- 2018/3/27 创建视频点赞表  开始----------------
+-- 2018/3/27 创建视频点赞表  开始----------------
 DROP TABLE IF EXISTS `likes_video`;
 
 CREATE TABLE `likes_video`(
@@ -10,7 +10,7 @@ CREATE TABLE `likes_video`(
   KEY `videoid_userid_deleted_index` (`videoid`,`userid`,`deleted`) USING BTREE
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='视频点赞表';
 
------ rollback  ------
+-- rollback  ------
 -- DROP TABLE IF EXISTS `likes_video`;
 
---------- 2018/2/27 创建视频点赞表  结束----------------
+-- 2018/2/27 创建视频点赞表  结束----------------

@@ -1,5 +1,5 @@
 
---------- 2018/3/14 创建文章评论表  开始----------------
+-- 2018/3/14 创建文章评论表  开始----------------
 DROP TABLE IF EXISTS `comment_article`;
 
 CREATE TABLE `comment_article` (
@@ -15,7 +15,7 @@ CREATE TABLE `comment_article` (
   KEY `articleid_deleted_index` (`articleid`,`deleted`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
 
------ rollback  ------
+-- rollback  ------
 -- DROP TABLE IF EXISTS `comment_article`;
 
---------- 2018/3/14 创建文章评论表  结束----------------
+-- 2018/3/14 创建文章评论表  结束----------------

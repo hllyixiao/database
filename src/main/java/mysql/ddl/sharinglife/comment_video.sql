@@ -1,5 +1,5 @@
 
---------- 2018/3/14 创建视频模块评论表  开始----------------
+-- 2018/3/14 创建视频模块评论表  开始----------------
 DROP TABLE IF EXISTS `comment_video`;
 
 CREATE TABLE `comment_video` (
@@ -15,7 +15,7 @@ CREATE TABLE `comment_video` (
   KEY `videoid_deleted_index` (`videoid`,`deleted`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
 
------ rollback  ------
+-- rollback  ------
 -- DROP TABLE IF EXISTS `comment_video`;
 
---------- 2018/3/14 创建视频模块表  结束----------------
+-- 2018/3/14 创建视频模块表  结束----------------

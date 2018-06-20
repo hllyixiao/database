@@ -1,4 +1,4 @@
---------- 2018/3/27 创建图片点赞表  开始----------------
+-- 2018/3/27 创建图片点赞表  开始----------------
 DROP TABLE IF EXISTS `likes_picture`;
 
 CREATE TABLE `likes_picture`(
@@ -10,7 +10,7 @@ CREATE TABLE `likes_picture`(
   KEY `pictureid_userid_deleted_index` (`pictureid`,`userid`,`deleted`) USING BTREE
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='图片点赞表';
 
------ rollback  ------
+-- rollback  ------
 -- DROP TABLE IF EXISTS `likes_picture`;
 
---------- 2018/2/27 创建图片点赞表  结束----------------
+-- 2018/2/27 创建图片点赞表  结束----------------

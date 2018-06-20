@@ -1,4 +1,4 @@
---------- 2018/3/27 创建文章点赞表  开始----------------
+-- 2018/3/27 创建文章点赞表  开始----------------
 DROP TABLE IF EXISTS `likes_article`;
 
 CREATE TABLE `likes_article`(
@@ -10,7 +10,7 @@ CREATE TABLE `likes_article`(
   KEY `articleid_userid_deleted_index` (`articleid`,`userid`,`deleted`) USING BTREE
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='文章点赞表';
 
------ rollback  ------
+-- rollback  ------
 -- DROP TABLE IF EXISTS `likes_article`;
 
---------- 2018/2/27 创建文章点赞表  结束----------------
+-- 2018/2/27 创建文章点赞表  结束----------------

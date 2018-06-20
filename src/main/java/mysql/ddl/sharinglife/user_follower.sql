@@ -1,4 +1,4 @@
---------- 2018/2/28 创建用户关注表  开始----------------
+-- 2018/2/28 创建用户关注表  开始--------
 DROP TABLE IF EXISTS `user_follower`;
 
 CREATE TABLE `user_follower`(
@@ -10,7 +10,7 @@ CREATE TABLE `user_follower`(
   KEY `userid_followerid_deleted_index` (`userid`,`followerid`,`deleted`) USING BTREE
 )ENGINE=InnoDB AUTO_INCREMENT=10000 DEFAULT CHARSET=utf8 COMMENT='用户关注表';
 
------ rollback  ------
+-- rollback  ------
 -- DROP TABLE IF EXISTS `user_follower`;
 
---------- 2018/2/28 创建用户关注表  结束----------------
+-- 2018/2/28 创建用户关注表  结束-----

@@ -1,4 +1,4 @@
---------- 2018/3/15 创建日志表  开始----------------
+-- 2018/3/15 创建日志表  开始----------------
 DROP TABLE IF EXISTS `logs`;
 
 CREATE TABLE `logs`(
@@ -13,7 +13,7 @@ CREATE TABLE `logs`(
   PRIMARY KEY (`id`)
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='日志表';
 
------ rollback  ------
+-- rollback  ------
 -- DROP TABLE IF EXISTS `logs`;
 
---------- 2018/3/15 创建日志表  结束----------------
+-- 2018/3/15 创建日志表  结束----------------
